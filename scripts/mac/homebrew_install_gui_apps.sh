@@ -39,7 +39,7 @@ inform "Using Homebrew Cask to install GUI apps..." true
 # The Text Editor, Sublime Text 3
 # (phlco) atom won't support files over 2mb therefore we'll hold off.
 
-brew cask install sublime-text
+brew cask install atom
 # ----------------------------------------------------------------------
 
 # Our productivity suite

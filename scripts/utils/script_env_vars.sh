@@ -9,8 +9,8 @@
 
 # FIXME (PJ) should have a better place to decide these versions:
 #   Ruby (rbenv), Python (pyenv), Node (nvm)
-BELOVED_RUBY_VERSION="2.2.3"
-CURRENT_STABLE_RUBY_VERSION="2.2.3"
+BELOVED_RUBY_VERSION="2.3.3"
+CURRENT_STABLE_RUBY_VERSION="2.3.3"
 
 # TODO (pj) decide what the python versions should really be...
 #   and maybe come up with a bigger, better place to hang this info
@@ -32,7 +32,7 @@ fi
 SCRIPT_ROOT="$HOME/.wdi"
 
 # TODO (PJ) this needs to be more robust, BY FAR!
-SCRIPT_REPO="https://github.com/GA-WDI/installfest_script.git"
+SCRIPT_REPO="https://github.com/KateWood/installfest.git"
 SCRIPT_REPO_BRANCH="master"
 
 # the downloaded repo
@@ -41,8 +41,8 @@ SCRIPT_SETTINGS="$SCRIPT_DIR/settings"
 
 SCRIPT_DOTFILES=$SCRIPT_SETTINGS/dotfiles/*
 SCRIPT_FONTS=$SCRIPT_SETTINGS/fonts/*
-SCRIPT_SUBL_SETTINGS=$SCRIPT_SETTINGS/sublime_settings/*
-SCRIPT_SUBL_PACKAGES=$SCRIPT_SETTINGS/sublime_packages/*
+# SCRIPT_SUBL_SETTINGS=$SCRIPT_SETTINGS/sublime_settings/*
+# SCRIPT_SUBL_PACKAGES=$SCRIPT_SETTINGS/sublime_packages/*
 SCRIPT_THEMES=$SCRIPT_SETTINGS/terminal/*
 
 # the working folder
