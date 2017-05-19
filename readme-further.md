@@ -1,3 +1,7 @@
+# DEPRECATED: DO NOT USE!!!
+
+---
+
 # WDI InstallFest Script
 
 This repo holds the scripts used in the installation, setup, and creation of "dotfiles" (ie, application settings) for the development environments of students in General Assembly's Web Development Immersive program.

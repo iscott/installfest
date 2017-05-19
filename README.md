@@ -34,7 +34,7 @@ have multiple users, let the instructors know!
 Paste this script into a Terminal prompt:
 
 ```
-bash <(curl -sL https://raw.githubusercontent.com/KateWood/installfest/master/builds/mac)
+bash <(curl -sL https://raw.githubusercontent.com/iscott/installfest/master/builds/mac)
 ```
 
 ##### ~~For Ubuntu Linux~~
@@ -82,7 +82,7 @@ Make sure that there are no errors (on the load page)!
    by typing `atom .` Make sure that Atom opens.
 5. **Slack**: ensure that you can open Slack (`⌘-Space`, and type `sla`) and
    communicate with your classmates! It's a good idea to set the slack desktop
-   app to open at login.
+   app to open at login. You'll want to use this slack desktop client and NOT THE WEB VERSION. Since the web version can mangle code when copy/pasting.
 6. **Files**: in your terminal, type `cd ~/code`. You should now have a
    directory here where you can store all of your programming projects! When
    you then type `ls` to list the contents of that directory, you should see
